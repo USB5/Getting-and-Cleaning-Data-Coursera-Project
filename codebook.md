@@ -1,5 +1,5 @@
 This codebook explains all the variable names and transformations in run_analysis.R
-##Variables:
+#Variables:
 * features, XTrain, YTrain, SubTrain, XTest, YTest, SubTest and activity contain data from the downloaded and unzipped txt files
 * train and test contain the training and test data respectively merged into a data set.
 * totalData consists on train and test data sets merged together
@@ -10,7 +10,7 @@ This codebook explains all the variable names and transformations in run_analysi
 * FinalData2 is a tidy data set with the average of each variable for each activity and each subject.
 
 
-##Transformations:
+#Transformations:
 1. If the data is not already present in the working directory, the R script downloads and unzips the data set in proj folder.
 2. Loads the training, tests, and feature data sets
 3. Combines the test(x_test.txt), activity(y_test.txt) and subject(subject.txt) text files to create one data set called test for testing data. 
