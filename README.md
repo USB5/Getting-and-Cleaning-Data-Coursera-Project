@@ -8,6 +8,3 @@ The run_analysis.R takes care of the 5 objectives specified in the project descr
 5. Filters this merged dataset to keep columns containing mean or std dev values
 6. Loads the activity data for the dataset. This data set is saved as FinalData1.txt
 7. Creates a tidy dataset that consists of the mean value of each variable for each subject and activity pair. This data set is saved as FinalData2.txt
-
-
-The output of the 5th step is called averages_data.txt, and uploaded in the course project's form.
